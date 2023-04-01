@@ -1,0 +1,22 @@
+// simulação de cálculo de INSS
+
+#include <stdio.h>
+
+int main(void) {
+  float sal;
+  printf("Digite o número do seu salário: ");
+  scanf("%f", &sal);
+  if (sal < 0){
+    printf("Valor inválido.");
+    return (0);
+  }
+  if (sal <= 600) {
+    printf("Isento do INSS.\n O seu salário é: %.2f", sal);
+  } else if (sal > 600 && sal <= 1200) {
+    printf("O seu salário com o desconto é: %.2f", sal - sal * 0.2);
+  } else if (sal > 1200 && sal <= 2000){
+    printf("O seu salário com o desconto é: %.2f", sal - sal * 0.25);
+  } else if (sal > 2000) {
+    printf("O seu salário com o desconto é: %.2f", sal - sal * 0.3);
+  }
+}
