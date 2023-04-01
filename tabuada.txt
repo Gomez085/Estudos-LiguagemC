@@ -1,0 +1,10 @@
+2 x 1 é igual a: 2
+2 x 2 é igual a: 4
+2 x 3 é igual a: 6
+2 x 4 é igual a: 8
+2 x 5 é igual a: 10
+2 x 6 é igual a: 12
+2 x 7 é igual a: 14
+2 x 8 é igual a: 16
+2 x 9 é igual a: 18
+2 x 10 é igual a: 20
